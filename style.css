@@ -1,0 +1,77 @@
+/*  Layout Structure */
+body{
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #e3f6f5;
+}
+.mainContainer{
+  width: 60%;
+  height: 520px;
+  margin: 50px auto;
+  background-color: #ffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.fullContainer{
+  width: 95%;
+  height: 210px;
+  border-radius: 10px 10px 0 0;
+  padding: 40px 0 0 40px;
+}
+.halfContainerOne{
+  width: 45.2%;
+  height: 250px;
+  border-radius: 0 0 0 10px;
+  position: absolute;
+  padding: 20px 0 0 40px;
+  background-color: #2bb3b1;
+  color: #ffff;
+}
+.halfContainerTwo{
+  width: 45%;
+  height: 250px;
+  border-radius: 0 0 10px 0;
+  position: absolute;
+  left: 411px;
+  background-color: #4abebd;
+  padding: 20px 0 0 39.9px;
+  color: #ffff;
+}
+
+/* clickable button to sign up*/
+button{
+  width: 80%;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  color: #ffff;
+}
+button:hover{
+  background-color: hsl(71, 73%, 47%);
+}
+/* Typography*/
+.fullP{
+  color: hsl(218, 22%, 67%);
+  font-size: 18px;
+}
+.halfConTwoP{
+  color: hsl(204, 43%, 93%);
+}
+.h1FullCon{
+  color: #2bb3b1;
+}
+.h2FullCon{
+  color: hsl(71, 73%, 54%);
+}
+.subP{
+  color: hsl(204, 43%, 93%);
+}
+span{
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 10px;
+}
